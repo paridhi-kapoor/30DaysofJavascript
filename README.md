@@ -1,5 +1,5 @@
 30 days of JAVASCRIPT CHALLENGE
--[] DAY 0
--[] DAY 1
--[] DAY 2
--[] DAY 3
+-[x]DAY 0
+-[x] DAY 1
+-[x] DAY 2
+-[x] DAY 3
