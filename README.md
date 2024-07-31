@@ -7,3 +7,5 @@
  -[x] DAY 5 : FUNCTIONS
  -[x] DAY 6 : ARRAYS
  -[x] DAY 7 : OBJECTS
+ -[x] DAY 8 : ES6 + FEATURES
+ 
