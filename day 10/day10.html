@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Day 10</title>
+    <style>
+        body {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Action 1 :</h2>
+    <p id="infoText">Hello, click the button to change this text!</p>
+    <button id="changeTextBtn" type="button">Click to change text</button>
+    
+    <h2>Action 2 :</h2>
+    <img id="picture" src="https://th.bing.com/th/id/OIP.CzyIOELZHbTpdaoOa2ypfQHaHa?rs=1&pid=ImgDetMain" alt="Sample Image">
+    <button id="toggleImageBtn" type="button">Double click to hide/show image</button>
+    
+    <h2>Action 3 and 4:</h2>
+    <h1 id="hoverText">Hover over me!</h1>
+    
+    <h2>Action 5 and 6:</h2>
+    <input type="text" id="keyInput" placeholder="Type here and check the console.">
+    <h2>Action 7, 8, 9, and 10 :</h2>
+    <h4 id="fruitListTitle">Fruit List:</h4>
+    <ul id="fruitList">
+        <li>Orange</li>
+        <li>Guava</li>
+        <li>Papaya</li>
+        <li>banana </li>
+        <li>Apple</li>
+    </ul>
+    <input id="newItemInput" type="text" name="newItem"><br>
+    <button id="addItemBtn" type="button">Add another fruit</button> <br>
+    <label id="favLabel">Is your favorite fruit listed? (y/n)</label><br>
+    <input type="text" id="favInput" name="favLabel">
+    
+    <h3 id="questionsHeading">Please answer the following questions:</h3>
+    <form id="questionsForm">
+        <label id="question1">Scenario: You are on a group project, and one member isn't contributing. What do you do?</label><br><br>
+        <select id="scenarioSelect">
+            <option>Talk to the member about it</option>
+            <option>Do the work yourself</option>
+            <option>Report to the supervisor</option>
+        </select><br>
+        <p id="scenarioResult"></p><br><br>
+        <label id="question2">What motivates you to work hard?</label><br><br>
+        <select id="educationSelect">
+            <option>To achieve personal goals</option>
+            <option>To gain recognition</option>
+            <option>To make a positive impact</option>
+        </select><br><br>
+        <button id="submitFormBtn" type="submit">Submit Answers</button><br><br><br>
+    </form>
+    <script src="day10.js"></script>
+</body>
+
+</html>
