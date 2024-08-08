@@ -20,4 +20,5 @@
 - DAY 14 : classes(OOPS CONCEPT)
 - DAY 15 : Closures
 - DAY 16 : DSA
+- DAY 17 : Data structures
 
