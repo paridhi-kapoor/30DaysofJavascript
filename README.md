@@ -1,5 +1,5 @@
 
-# 30 days of JavaScript CHALLENGE
+# 30DaysofJavascript CHALLENGE
 
 ## TASKS DONE
 
@@ -21,4 +21,4 @@
 - DAY 15 : Closures
 - DAY 16 : DSA
 - DAY 17 : Data structures
-
+- DAY 18 :  Algorithms
