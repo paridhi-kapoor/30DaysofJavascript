@@ -47,7 +47,7 @@ console.log(`AreaCode = ${res5[1]}`);
 // O/P : AreaCode = 123
 console.log(`Central Office Code = ${res5[2]}`);
  // O/P : Central Office Code = 456
-console.log(`Line number = ${res5[3]}`); 
+console.log(`Line number = ${res5[3]}`);
 // O/P : Line number = 7890
 
 
