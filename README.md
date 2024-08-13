@@ -23,3 +23,4 @@
 - DAY 17 : Data structures
 - DAY 18 :  Algorithms
 - DAY 19 : Regular expressions
+- DAY 20 : Local Storage
