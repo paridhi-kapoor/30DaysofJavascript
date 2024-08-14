@@ -24,3 +24,4 @@
 - DAY 18 :  Algorithms
 - DAY 19 : Regular expressions
 - DAY 20 : Local Storage
+- DAY 21 : LEETCODE EASY 
