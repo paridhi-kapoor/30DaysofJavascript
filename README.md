@@ -25,3 +25,4 @@
 - DAY 19 : Regular expressions
 - DAY 20 : Local Storage
 - DAY 21 : LEETCODE EASY 
+- DAY 22 : LEETCODE MEDIUM
