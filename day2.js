@@ -64,10 +64,10 @@
 
  //Task 10 : write a program to compare two numbers using == and === operator and log the result to console.
  
- x=5;
+ x='5';   
  y =5;
- console.log("Equal to : x==y" , x==y) ;                   //OUTPUT : Equal to : x==y true
- console.log("strictly Equal to : x===y" , x===y) ;        //OUTPUT : strictly Equal to : x===y true
+ console.log("Equal to : x==y" , x==y) ;                   //OUTPUT : Equal to : x==y true  means it checks only value. and type conversion is done before checking ,it convert the type of one of the variable to match the other.
+ console.log("strictly Equal to : x===y" , x===y) ;        //OUTPUT : strictly Equal to : x===y false   , no type conversion is done here , it checks both value and type of the variable.
 
 //Actvity 4 : LOGICAL OPERATOR 
 
@@ -170,7 +170,7 @@ console.log((n > 2) || (n > 5));  // true
 
 // logical NOT
 console.log(!(n == 3));  // true
-
+n1 =10 ;
 
 // 3. ternary operator script
 n1>0 ? console.log(n1,"is +ve") : console.log(n1,"is -ve");  //output: 10 is positive

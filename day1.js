@@ -33,6 +33,7 @@
     console.log(typeof bool)   //Output: boolean
     console.log(typeof obj)     //Output: object
     console.log(typeof arr)    //Output: object(array are a type of object in javascript)
+    console.log(obj) //Output: { name: 'Pari', number: '15' }
 
 // Activity 4: Reassigning values
   
