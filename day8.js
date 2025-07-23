@@ -10,7 +10,7 @@ console.log(str);                    //output: name: Paridhi Kapoor age: 20
 
 // Task 2
 
-const str2 = `hello, How are you? 
+const str2 = `hello, How are you? ;
 Myself Paridhi `;
 console.log(str2);                    //output: hello How are you?
                                       //          Myself Paridhi

@@ -1,4 +1,4 @@
-//DAY 7: ONJECTS
+//DAY 7: OBJECTS
 
 //ACTIVITY 1 :OBJECT CREATION AND ACCESS
  
@@ -45,19 +45,15 @@
 
   // TASK 5 : Create a nested object representing a library with properties like name and book(an array of book objects) and log the library object to the console.
 
-  const library = {
-    name: " Library",
-    books: [
-      {
-        title: "The way of the world",
-        author: "William Congreve",
-      },
-      {
-        title: "To Kill a Mockingbird",
-        author: "Harper Lee",
-      },
-    ],
-  };
+const library ={
+  name : "library",
+  books :[{title : "the way of the world",
+    author : "William Congreve"
+  },
+    {title: "To Kill a Mockingbird",
+    author: "Harper Lee"}
+  ]
+}
   
   console.log(library);
   /*OUTPUT :
@@ -74,9 +70,9 @@
 
   console.log(library["name"]) ;           //OUTPUT : "library"
 
-  library.books.forEach((book) => {      
-    console.log(book.title);
-  });                                    //OUTPUT :The way of the world
+ library.books.forEach((book)=> {
+    console.log(book.title) ;            
+ } );                               //OUTPUT :The way of the world
                                              //    To Kill a Mockingbird
 
 //ACTIVITY 4 : THE this keyword 
@@ -95,14 +91,14 @@
   
     for(let property in book)
       {
-          console.log(`${property}:${book[property]}`)
+          console.log(`${property} - ${book[property]}`) ;
       }
     /*
     title:THE WAY OF THE WORLD
-    auther:William congreve
+    author:William congreve
     year:1800
     info:function(){
-        return book.title + " " + book.auther ;
+        return book.title + " " + book.author ;
       }
     info2:function(){
         return this.title + " "+ this.year ;
